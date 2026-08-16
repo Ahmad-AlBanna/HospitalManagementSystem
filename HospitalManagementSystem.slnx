@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="HospitalManagementSystem.Application/HospitalManagementSystem.Application.csproj" />
+    <Project Path="HospitalManagementSystem.Domain/HospitalManagementSystem.Domain.csproj" />
+    <Project Path="HospitalManagementSystem.Infrastructure/HospitalManagementSystem.Infrastructure.csproj" />
+    <Project Path="HospitalManagementSystem/HospitalManagementSystem.API.csproj" />
+    <Project Path="HospitalManagementSystemWeb/HospitalManagementSystemWeb.csproj" Id="7dfcf373-7785-4bf1-a2f0-b7aa616d50ee" />
+  </Folder>
+</Solution>

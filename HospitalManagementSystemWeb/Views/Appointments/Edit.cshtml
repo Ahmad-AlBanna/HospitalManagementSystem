@@ -1,0 +1,71 @@
+﻿<h1>Edit Appointment</h1>
+
+<script>
+    const appointmentId = @ViewBag.AppointmentId;
+</script>
+
+<label>Doctor</label>
+<br />
+
+<select id="doctorId">
+</select>
+
+<br />
+<br />
+
+<label>Patient</label>
+<br />
+
+<select id="patientId">
+</select>
+
+<br />
+<br />
+
+<label>Date</label>
+<br />
+
+<input id="appointmentDate"
+       type="datetime-local" />
+
+<br />
+<br />
+
+<label>Status</label>
+<br />
+
+<select id="status">
+
+    <option value="Scheduled">
+        Scheduled
+    </option>
+
+    <option value="Completed">
+        Completed
+    </option>
+
+    <option value="Cancelled">
+        Cancelled
+    </option>
+
+</select>
+
+<br />
+<br />
+
+<label>Notes</label>
+<br />
+
+<textarea id="notes"
+          rows="5"
+          cols="40"></textarea>
+
+<br />
+<br />
+
+<button onclick="updateAppointment()">
+    Update
+</button>
+
+<script src="~/js/api.js"></script>
+<script src="~/js/Admin/appointments.js"></script>

@@ -1,0 +1,31 @@
+﻿@{
+    Layout = "~/Views/Shared/_DoctorLayout.cshtml";
+}
+
+<h1>
+    My Appointments
+</h1>
+
+<table border="1">
+
+    <thead>
+
+        <tr>
+
+            <th>Patient</th>
+            <th>Date</th>
+            <th>Status</th>
+            <th>Notes</th>
+            <th>Action</th>
+
+        </tr>
+
+    </thead>
+
+    <tbody id="appointmentsTable">
+    </tbody>
+
+</table>
+
+<script src="~/js/api.js"></script>
+<script src="~/js/Doctor/doctor-appointments.js"></script>  

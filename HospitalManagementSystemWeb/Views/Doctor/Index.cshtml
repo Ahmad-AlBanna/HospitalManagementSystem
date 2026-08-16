@@ -1,0 +1,114 @@
+﻿@{
+    Layout = "~/Views/Shared/_DoctorLayout.cshtml";
+}
+
+
+<h1>
+    Welcome Dr.
+    <span id="doctorName">-</span>
+</h1>
+
+
+
+<div class="cards">
+
+
+    <div class="card">
+
+        <h2 id="appointmentCount">
+            0
+        </h2>
+
+        <p>
+            Total Appointments
+        </p>
+
+    </div>
+
+
+
+    <div class="card">
+
+        <h2 id="patientCount">
+            0
+        </h2>
+
+        <p>
+            Total Patients
+        </p>
+
+    </div>
+
+
+
+    <div class="card">
+
+        <h2 id="todayAppointmentCount">
+            0
+        </h2>
+
+        <p>
+            Today's Appointments
+        </p>
+
+    </div>
+
+
+</div>
+
+
+
+<h2>
+    Today's Schedule
+</h2>
+
+
+
+<table border="1">
+
+
+    <thead>
+
+        <tr>
+
+            <th>
+                Patient
+            </th>
+
+
+            <th>
+                Time
+            </th>
+
+
+            <th>
+                Status
+            </th>
+
+
+            <th>
+                Notes
+            </th>
+
+
+        </tr>
+
+    </thead>
+
+
+
+    <tbody id="todayAppointmentsTable">
+    </tbody>
+
+
+</table>
+
+<a href="/Doctor/Appointments">
+    View All Appointments
+</a>
+
+
+
+<script src="~/js/api.js"></script>
+
+<script src="~/js/Doctor/doctor-dashboard.js"></script>
