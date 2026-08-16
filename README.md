@@ -386,7 +386,7 @@ You can test the API using:
 Recommended testing flow:
 
 ```text
-1. Login / Register
+1. Login / Register --> login for Admin email :- admin@hospital.com \ Pass  :- Admin@123
        ↓
 2. Get JWT
        ↓
